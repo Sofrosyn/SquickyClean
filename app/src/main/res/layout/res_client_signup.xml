@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent" android:gravity="center_horizontal">
+<TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/app_name" android:fontFamily="@font/fonts"
+    android:layout_marginTop="32dp"  android:textSize="24dp" android:textStyle="bold"/>
+
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/signup_motto" android:fontFamily="@font/fonts"
+    android:textStyle="italic" />
+
+    <EditText android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="@string/login_phoneNumber"
+     android:inputType="phone" android:fontFamily="@font/fonts" android:layout_marginTop="64dp" android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp" android:id="@+id/client_signup-phoneNumber"/>
+
+    <EditText android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="Full name"
+     android:inputType="textPersonName" android:fontFamily="@font/Raleway-Regular" android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp" android:id="@+id/client_signup-fullName" android:layout_marginTop="16dp"/>
+
+    <EditText android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="Address"
+     android:inputType="text" android:fontFamily="@font/Raleway-Regular" android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp" android:id="@+id/client_signup-Address" android:layout_marginTop="16dp"/>
+
+    <EditText android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="@string/login_password"
+     android:inputType="textPassword" android:fontFamily="@font/Raleway-Regular" android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp" android:id="@+id/client_signup-password" android:layout_marginTop="16dp"/>
+
+   <EditText android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="@string/signup_ConfirmPassword"
+     android:inputType="textPassword" android:fontFamily="@font/Raleway-Regular" android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp" android:id="@+id/client_signup-conPassword" android:layout_marginTop="16dp"/>
+
+    <CheckBox android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_gravity="start" android:text="@string/signup_agreement"
+    android:layout_marginStart="8dp" android:layout_marginTop="16dp" android:layout_marginEnd="8dp" android:fontFamily="@font/fonts"/>
+
+    <Button android:layout_height="wrap_content" android:layout_width="wrap_content" android:text="Sign up"  android:ems="18" android:layout_marginTop="32dp"
+    android:id="@+id/client_signup-button"/>
+
+</LinearLayout>

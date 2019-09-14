@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "519083603594",
+    "firebase_url": "https://squickyclean-16b4e.firebaseio.com",
+    "project_id": "squickyclean-16b4e",
+    "storage_bucket": "squickyclean-16b4e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:519083603594:android:f3561545a23f1feb",
+        "android_client_info": {
+          "package_name": "sofrosyn.tech.com.squickyclean"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "519083603594-64sjhni2tc6tst0amonkeob27pqrc6op.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "sofrosyn.tech.com.squickyclean",
+            "certificate_hash": "7f611176b6b8d4174fe6950a11c5df569d797514"
+          }
+        },
+        {
+          "client_id": "519083603594-6eb6e3ag99vjnid93582mosbgjpj9h4a.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBFZF4g1DN_JH2tNSu_35uXjVxvUuYToW0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "519083603594-6eb6e3ag99vjnid93582mosbgjpj9h4a.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

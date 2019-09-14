@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+      >
+<item android:id="@+id/bottom_home"
+      android:icon="@drawable/menu_home_black_24dp"
+      android:title="Home"
+      />
+
+    <item android:id="@+id/bottom_transaction"
+          android:icon="@drawable/bottom_blur_linear_black_24dp"
+          android:title="Transaction"
+    />
+    <item android:id="@+id/bottom_card"
+          android:icon="@drawable/bottom_credit_card_black_24dp"
+          android:title="Card"
+    />
+
+    <item android:id="@+id/bottom_profile"
+          android:icon="@drawable/bottom_person_black_24dp"
+          android:title="Profile"
+    />
+
+</menu>

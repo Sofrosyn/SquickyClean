@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+                xmlns:tools="http://schemas.android.com/tools">
+
+    <RelativeLayout  android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <Button android:layout_width="wrap_content" android:layout_height="64dp" android:text="+ Add Card" android:ems="8"
+    android:layout_alignParentEnd="true" android:layout_marginTop="32dp" android:layout_marginEnd="16dp" android:id="@+id/client_addCard"/>
+
+    <androidx.cardview.widget.CardView android:layout_width="match_parent" android:layout_height="280dp" android:layout_below="@id/client_addCard"
+                                       android:layout_marginTop="32dp" android:layout_marginEnd="8dp" android:layout_marginStart="8dp"
+                                       app:cardCornerRadius="16dp" app:cardElevation="8dp" app:cardBackgroundColor="#d3d3d3" android:id="@+id/client_card">
+
+     <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/mastercard_24px"
+     android:layout_gravity="end" android:layout_marginTop="16dp" android:layout_marginEnd="16dp"/>
+
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:fontFamily="@font/Raleway-Regular"
+    android:text="@string/card_type" android:layout_gravity="start" android:layout_marginStart="16dp" android:layout_marginTop="24dp"/>
+
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:fontFamily="@font/Raleway-Bold" android:layout_marginBottom="16dp"
+                  android:text="@string/card_number" android:layout_gravity="center"  android:textSize="32sp" android:id="@+id/client_cardNumber"/>
+
+<LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:orientation="vertical" android:gravity="center"
+        android:layout_gravity="center_vertical|center_horizontal" android:layout_marginTop="54dp" android:layout_marginStart="-64dp">
+
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:fontFamily="@font/Raleway-Regular"
+              android:text="@string/card_cvv" android:textSize="16sp" />
+
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:fontFamily="@font/Raleway-Bold"
+              android:text="@string/card_cvv_no" android:textSize="16sp" />
+</LinearLayout>
+
+        <LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content"  android:layout_marginTop="54dp"
+                      android:orientation="horizontal" android:gravity="center" android:layout_gravity="center_vertical|center_horizontal"
+                android:layout_marginStart="16dp">
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:fontFamily="@font/Raleway-Regular"
+              android:text="@string/card_valid" android:textSize="16sp" />
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:fontFamily="@font/Raleway-Bold"
+                      android:text="@string/card_validity" android:textSize="18sp" android:layout_marginStart="8dp" />
+
+</LinearLayout>
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:fontFamily="@font/Raleway-Bold"
+                  android:text="@string/card_name" android:layout_gravity="bottom|center_horizontal"  android:textSize="24sp"
+                  android:id="@+id/client_cardName" android:layout_marginTop="8dp" android:layout_marginBottom="16dp" />
+
+    </androidx.cardview.widget.CardView>
+
+   <Spinner android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginStart="8dp" android:layout_marginEnd="8dp"
+            android:layout_below="@id/client_card" android:layout_marginTop="16dp"  android:entries="@array/banks" android:id="@+id/client_bank-choice"/>
+
+    <EditText android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="Account Name"
+    android:layout_below="@id/client_bank-choice" android:layout_marginTop="16dp" android:layout_marginStart="8dp" android:layout_marginEnd="8dp"
+    android:inputType="text" android:id="@+id/client_account-name"/>
+
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="horizontal" android:id="@+id/temp1"
+                  android:layout_marginTop="16dp" android:layout_marginStart="8dp" android:layout_marginEnd="8dp" android:layout_below="@id/client_account-name">
+
+        <EditText android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="xxxx" android:ems="4" android:gravity="center"
+                 android:layout_margin="8dp" android:textSize="16sp" android:id="@+id/client_cardNumber-box_one"/>
+
+        <EditText android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="xxxx" android:ems="4" android:gravity="center"
+                 android:layout_margin="8dp" android:textSize="16sp" android:id="@+id/client_cardNumber-box_two"/>
+
+        <EditText android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="xxxx" android:ems="4" android:gravity="center"
+                 android:layout_margin="8dp" android:textSize="16sp" android:id="@+id/client_cardNumber-box_three"/>
+        <EditText android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="xxxx" android:ems="4" android:gravity="center"
+                 android:layout_margin="8dp" android:textSize="16sp" android:id="@+id/client_cardNumber-box_four"/>
+
+    </LinearLayout>
+    <LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="16dp" android:layout_marginStart="8dp" android:layout_marginEnd="8dp" android:layout_below="@id/temp1"
+                  android:orientation="horizontal" android:layout_marginBottom="16dp">
+        <EditText android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="xxxx" android:ems="4" android:gravity="center"
+                  android:layout_margin="8dp" android:textSize="16sp" android:id="@+id/client_expMonth"/>
+        <EditText android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="xxxx" android:ems="4" android:gravity="center"
+                  android:layout_margin="8dp" android:textSize="16sp" android:id="@+id/client_expYear"/>
+
+    </LinearLayout>
+
+</RelativeLayout>
+</ScrollView>

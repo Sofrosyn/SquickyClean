@@ -1,0 +1,73 @@
+<resources>
+	<string name="app_name">SquickyClean</string>
+
+	<!--Login -->
+	<string name="login">Login</string>
+	<string name="login_motto">Login to Africa\'s No.1 on demand cleaning solution</string>
+	<string name="login_phoneNumber">Phone Number</string>
+	<string name="login_password">Password</string>
+	<string name="login_forgot">forgot password?</string>
+	<string name="login_signup">Don\'t have an account?</string>
+	<string name="login_signHere">here</string>
+
+	<!-- sign up-->
+	<string name="signup">Register</string>
+	<string name="signup_motto">Welcome to the world of cleaning at a convenience</string>
+	<string name="signup_ConfirmPassword">Confirm Password</string>
+	<string name="signup_button">Sign up</string>
+	<string name="signup_agreement">I agree with the terms and conditions binding me and the SquickyClean Brand</string>
+	<!-- pathway-->
+	<string name="hire">Hire a Squicky clean agent</string>
+	<string name="become">Become a certified Squicky clean agent</string>
+
+	<!-- about -->
+	<string name="about_motto">...Top notch cleaning at your convenience</string>
+	<string name="about_rights">All rights reserved</string>
+	<string name="about_disclaimer">This is a brain child of SOFROSYN INC</string>
+
+	<!-- Client dashboard-->
+	<string name="client_HomeCleaning">Home\nCleaning</string>
+	<string name="client_EventCleaning">Event\nCleaning</string>
+	<string name="client_OfficeCleaning">Office\nCleaning</string>
+	<string name="client_IndustrialCleaning">Industrial\nCleaning</string>
+	<string name="client_ContractCleaning">Contract\nCleaning</string>
+	<string name="client_GeneralCleaning">General\nCleaning</string>
+	<string name="client_Banner">Banner</string>
+	<string name="client_Dashboard">Dashboard</string>
+	<string name="client_HelloMessage">Welcome Joy Drake</string>
+	<string name="client_pendingServices">Pending services</string>
+	<string name="client_pendingResponse">none</string>
+	<string name="client_notification">Notification</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+	<!-- Card fragment-->
+
+	<string name="card_type">MasterCard</string>
+	<string name="card_number">1234  5678  9012  3456</string>
+	<string name="card_cvv">cvv</string>
+	<string name="card_cvv_no">123</string>
+	<string name="card_valid">VALID\nTHRU</string>
+	<string name="card_validity">06/17</string>
+	<string name="card_name">Loreum ipseum loquatum</string>
+
+	<string-array name="banks">
+		<item >UBA</item>
+		<item >Diamond Bank</item>
+		<item >GTB</item>
+	</string-array>
+
+	<!-- transaction-->
+	<string name="description">General cleaning of apartment\n4 bedroom flat </string>
+	<string name="status">complete</string>
+
+
+	<!-- transaction-->
+	<string name="chatbot">ask me a question</string>
+
+</resources>
